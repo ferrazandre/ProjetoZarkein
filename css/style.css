@@ -215,15 +215,16 @@ footer p{
     nav.mobile ul{
         font-weight: 300;
         width: 100%;
-        display: block;
-        background: white;
-        border-bottom: 1px solid#ccc;
+        display: none;
+        background: black;
+        
         font-size: 17px;
         padding:8px 0;
     }
     nav.mobile li a{
         display: block;
-        color:#444;
+        color: #ccc;
+        border-bottom: 1px solid#ccc;
         text-decoration: none;
     }
 } 
